@@ -8,6 +8,8 @@ void main() {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [Colors.deepPurple, Colors.purpleAccent],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: const Center(child: Text('Hello, World!')),
